@@ -11,7 +11,7 @@ import widgets.SearchResults;
 
 public class Page {
 	protected WebDriver driver = BaseTests.getWebDriver();
-	By account = By.id("account");
+	By account = By.id("account");// new comment
 	By cart = By.id("header_cart");
 	String menuItem_Format = ".//li[contains(@class,'menu-item') and text()='%s']";
 	By searchField = By.name("s");
